@@ -210,7 +210,7 @@
     background-repeat: repeat-x;
 
     /* Default background-size for larger screens */
-    background-size: 3.9% 100%;
+    background-size: 5% 100%;
   }
 
   @media (max-width: 640px) {
