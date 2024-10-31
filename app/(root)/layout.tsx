@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import { Toaster } from "@/components/ui/toaster";
 
 const layout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
   return (
@@ -6,6 +7,7 @@ const layout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
       <Navbar />
 
       {children}
+      <Toaster />
     </main>
   );
 };
